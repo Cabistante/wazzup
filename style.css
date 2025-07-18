@@ -1,24 +1,22 @@
-
 body{
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
 }
 .navbar{
     color: black;
-    padding: 10px 20px;
+    padding : 10px 20px;
     justify-content: space-between;
     display: flex;
     align-items: center;
-   
-
 }
 .logo{
-    height: 90px;
+    height: 100px;
     width: 100px;
-
-}.nav-links{
+}
+.nav-links{
     display: flex;
     gap: 15px;
+    font-size: large;
 }
 
 .nav-links a{
@@ -29,51 +27,48 @@ body{
    
 }
 .nav-links a:hover{
-    background-color: #FF4500;
+    background-color: #d70906;
     border-radius: 4px;
     padding: 8px 12px;
 }
 .nav-links .active{
-    background-color: #FF4500;
+    background-color: #d70906;
 
 }
 
 .banner img{
     width: 100%;
-    height: 400px;
+    height: 570px;
     object-fit: cover;
     display: block;
-    margin-top: 10px;
+    margin-top: -3px;
 }
-.watty{
+.fastfood{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
     gap: 20px;
 }
-.watty h2{
+.fastfood h2{
     margin-top: 5px;
     font-size: 45px;
     font-weight: 700;
 }
-.watty p{
+.fastfood p{
     justify-content: center;
     display: block;
     font-size: 32px;
-    margin-top: -30px;
+    margin-top: -40px;
+    padding: 10px;
 }
-.stories{
-    font-family: Arial, Helvetica, sans-serif;
-     padding: 20px;
-     margin-top: -3.5rem;
-     gap: 10px;
-}
+
+
  h2{
     font-size: 35px;
     font-weight: 700;
     margin-top: -30px;
     padding: 20px;
 }
-.image-container{
+.three-image{
     display: flex;
     justify-content: center;
     gap: 35px;
@@ -127,7 +122,7 @@ form{
     
 }
 button{
-    background-color: #FF4500;
+    background-color: #d70906;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -146,16 +141,16 @@ label{
     font-weight: bold;
 }
 h1{
-    color: #FF4500;
+    color: #d70906;
 }
 a{
-    color: #FF4500;
-    text-decoration: none;
+    color: #d70906
+
 }
  footer{
     text-align: center;
     padding: 1px;
-    background-color: #FF4500;
+    background-color: #d70906;
     font-size: 15px;
     color: white;
     
@@ -179,8 +174,7 @@ a{
     .nav-links{
         display: flex;
         flex-direction: column;
-        align-items: stretch;
-      
+        
         width: 100%;
 
     }
